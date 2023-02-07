@@ -1,0 +1,21 @@
+GET http://localhost:8000/todo/2
+
+
+###
+POST http://localhost:8000/todo
+Content-Type: application/json
+
+{
+    "judul":"pagi",
+    "isi":"makan"
+
+}
+
+###
+PATCH http://localhost:8000/todo/4
+Content-Type: application/json
+
+{
+    "judul":"aaaasss",
+    "isi":"mamang"
+}
